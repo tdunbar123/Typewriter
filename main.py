@@ -72,6 +72,8 @@ def create_20_random_letters():
     return temp
 
 async def main():
+    seed = int(time.time())
+    random.seed(seed)
     word = create_20_random_letters()
     running = True
     gameover = False
