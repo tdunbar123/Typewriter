@@ -6,7 +6,7 @@ import time
 
 import pygame.display
     
-
+#TEST
 pygame.init()
 
 HEIGHT = 800
